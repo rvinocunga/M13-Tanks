@@ -13,7 +13,7 @@ public void cargarEscenaPlayer()
 
 public void cargarEscenaIA()
 {
-    SceneManager.LoadScene("Nivel1");
+    SceneManager.LoadScene("Level1");
 }
 
 }

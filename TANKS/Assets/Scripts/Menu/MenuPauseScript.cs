@@ -29,6 +29,7 @@ public class MenuScript : MonoBehaviour
 
     public void Quit()
     {
-       SceneManager.LoadScene("MenuPrincipal"); 
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MenuPrincipal"); 
     }
 }
